@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cbc22ed1-f822-4edd-abe0-7c49f0053d58" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_instances.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_instances.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatekeeper.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatekeeper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql_cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_cluster.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/proxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +38,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
