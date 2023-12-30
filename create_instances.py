@@ -1,10 +1,20 @@
 import boto3
 import config
 
-# This is a code that:
-#   - Creates a security group
-#   - Launches 5 EC2 instances of type t2.micro
-#   - Launches 2 EC2 instances of type t2.large
+"""
+This script utilizes the Boto3 library to interact with AWS and perform the following actions:
+  - Creates a security group
+  - Launches 5 EC2 instances of type t2.micro
+  - Launches 2 EC2 instances of type t2.large
+
+AWS credentials and configuration details are imported from the 'config' module.
+
+Usage:
+  - Ensure that you have valid AWS credentials in the 'config' module.
+  - Modify the script as needed for your specific use case.
+  - Run the script to create the specified resources.
+
+"""
 
 # AWS credentials
 aws_access_key_id = config.aws_access_key_id

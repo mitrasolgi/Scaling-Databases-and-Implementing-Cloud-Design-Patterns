@@ -1,3 +1,38 @@
+"""
+configurations.py
+
+This module defines configuration parameters for AWS and MySQL, including security credentials,
+server IPs, and database details.
+
+AWS Configuration:
+    - security_group_name: The name of the AWS security group.
+    - key_name: The name of the AWS key pair.
+    - key_path: The path to the private key file.
+    - region_name: The AWS region name.
+    - aws_access_key_id: The AWS access key ID.
+    - aws_secret_access_key: The AWS secret access key.
+    - aws_session_token: The AWS session token.
+
+AWS Instances:
+    - MASTER_NODE_IP: IP address of the master node.
+    - SLAVE_NODES_IPS: List of IP addresses for slave nodes.
+    - PROXY_SERVER_IP: IP address of the proxy server.
+    - PROXY_SERVER_INSTANCE_TYPE: Instance type for the proxy server.
+
+MySQL Configuration:
+    - MASTER_DB_HOST: Hostname or IP address of the master database.
+    - MASTER_DB_USER: Username for the master database.
+    - MASTER_DB_PASSWORD: Password for the master database.
+    - MASTER_DB_DATABASE: Name of the master database.
+
+    - SLAVE_DB_USER: Username for the slave databases.
+    - SLAVE_DB_PASSWORD: Password for the slave databases.
+    - SLAVE_DB_DATABASE: Name of the slave databases.
+
+    - PROXY_DB_USER: Username for the proxy database.
+    - PROXY_DB_PASSWORD: Password for the proxy database.
+    - PROXY_DB_DATABASE: Name of the proxy database.
+"""
 security_group_name='FP'
 key_name='vockey'
 key_path='vockey.pem'
