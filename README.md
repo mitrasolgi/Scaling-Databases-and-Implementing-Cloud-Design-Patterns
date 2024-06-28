@@ -1,5 +1,5 @@
 
-# Cloud Computing Final Project
+# Scaling Databases and Implementing Cloud Design Patterns
 # Instructions
 1. Start the lab in AWS Academy
 2. Run the bash scripts to install MySQL Standalone and Cluster Versions:
